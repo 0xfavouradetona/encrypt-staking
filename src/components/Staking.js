@@ -55,7 +55,7 @@ const Staking = (props) => {
         />
         <p>Unstake All</p>
       </button>
-      {/* <div className={classes.totals}>
+      <div className={classes.totals}>
         <h4>
           Total Staked (by all users): {props.totalStaked} ArbitrageToken (RBTR)
         </h4>
@@ -68,7 +68,7 @@ const Staking = (props) => {
         <h5 onClick={goMax} className={classes.goMax}>
           My balance: {props.userBalance} ArbitrageToken (RBTR)
         </h5>
-      </div> */}
+      </div>
     </div>
   );
 };

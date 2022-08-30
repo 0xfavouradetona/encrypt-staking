@@ -371,8 +371,8 @@ const App = () => {
           <Staking
             account={account}
             totalStaked={page === 1 ? totalStaked[0] : totalStaked[1]}
-            // myStake={page === 1 ? myStake[0] : myStake[1]}
-            // userBalance={userBalance}
+            myStake={page === 1 ? myStake[0] : myStake[1]}
+            userBalance={userBalance}
             unStakeHandler={unStakeHandler}
             stakeHandler={stakeHandler}
             inputHandler={inputHandler}
