@@ -17,7 +17,7 @@ const AdminTesting = (props) => {
           Selected Network: <b>{props.network.name}</b>
           &nbsp; id: <b>{props.network.id}</b>
         </p>
-        <p>Contract Balance: {props.contractBalance} TestToken (Tst) </p>
+        <p>Contract Balance: {props.contractBalance} ArbitrageToken (RBTR) </p>
         <p>Staking Contract address: {props.tokenStakingContract._address}</p>
       </div>
     </div>

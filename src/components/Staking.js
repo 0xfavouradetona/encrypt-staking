@@ -20,12 +20,12 @@ const Staking = (props) => {
 
   return (
     <div className={classes.Staking}>
-      <img src={icon} alt="logo" className={classes.icon} />
-      <h1> Yield Farming / Token Staking dApp</h1>
+      {/* <img src={icon} alt="logo" className={classes.icon} /> */}
+      <h1>ArbitrageToken (RBTR) Staking dApp</h1>
       <p>{props.account}</p>
-      <h3>
+      {/* <h3>
         {props.apy}% (APY) - {props.apy / 365}% Daily Earnings
-      </h3>
+      </h3> */}
       <div className={classes.inputDiv}>
         <input
           className={classes.input}

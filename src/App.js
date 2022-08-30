@@ -366,7 +366,7 @@ const App = () => {
       {loader ? <div className={classes.curtain}></div> : null}
       <div className={classes.loader}></div>
       <div className={classes.Child}>
-        <Navigation apy={apy} changePage={changePage} />
+        {/* <Navigation apy={apy} changePage={changePage} /> */}
         <div>
           <Staking
             account={account}
